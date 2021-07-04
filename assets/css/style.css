@@ -1,0 +1,25 @@
+body
+{
+    background-color: #ffffff!important;
+    padding: 0;
+    margin: 0;
+}
+.header
+{
+    background-color: #000!important;
+}
+.logo img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+/* Menu */
+
+/* End Menu */
+.slider
+{
+    padding: 0;
+    margin: 0;
+}
