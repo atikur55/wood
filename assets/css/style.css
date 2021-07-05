@@ -6,20 +6,325 @@ body
 }
 .header
 {
-    background-color: #000!important;
+    background-color: #fff!important;
+    padding: 25px 0;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    background: white;
+  
+    z-index: 10;
 }
-.logo img
+.logo a img
 {
+/*
     display: block;
+        display: inline;
+*/
+/*
     margin-left: auto;
     margin-right: auto;
-    width: 150px;
+*/
+    width: 200px;
+    height: 60px;
+    margin-left: 60px;
 }
-/* Menu */
-
-/* End Menu */
+.logoTitle
+{
+    margin-top: 8px;
+}
+.logoTitle span
+{
+    font-family: 'Tahoma';
+    font-size: 72px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+    text-shadow: none;
+    color: #666666;
+}
 .slider
 {
     padding: 0;
     margin: 0;
 }
+.bannerup{
+    background-color: #ffffff!important;
+}
+.banneruplogo img{
+   margin: -90px 0 -50px 0; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 380px;
+  
+}
+.iconbar
+{
+    margin: 50px 0;
+    background-color: #fff!important;
+}
+.icon
+{
+    text-align: center;
+}
+.icon a i
+{
+    font-size: 180px;
+    text-decoration: none;
+    color: #000!important;
+}
+.icon h4
+{
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: tahoma;
+}
+.icon p
+{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+.footer
+{
+    background-color: #000!important;
+    padding: 50px 0;
+}
+.footericon
+{
+    text-align: center;
+}
+.footericon a i
+{
+    text-decoration: none;
+    font-size: 100px;
+    border: 1px solid grey;
+    padding: 45px;
+    border-radius: 50%;
+    color: #C4C4C4!important;
+}
+.footericon h3
+{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: #fff!important;
+    font-family: tahoma;
+    letter-spacing: 1px;
+}
+.aboutus
+{
+    padding: 50px 0;
+    background-color: #fff!important;
+
+}
+.about_head
+{
+    margin: auto;
+}
+.about_head h3
+{
+    padding: 25px 0 25px 10px;;
+    color: #000!important;
+    font-size: 30px;
+    font-family: tahoma;
+    font-weight: bold;
+}
+.about_first p
+{
+    font-family: tahoma;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+.about_image img
+{
+   height: 700px;
+    width: 100%;
+}
+.contactus
+{
+    padding: 50px 0;
+    background-color: #fff!important;
+}
+.contact_form
+{
+    padding: 0 15px 0 15px;
+}
+.gallery
+{
+    padding: 50px 0;
+    background-color: #fff!important;
+}
+.diamond{
+    counter-reset: list-counter;
+    list-style: none;
+    float:left;
+}
+.diamond li{
+    margin: 1.5em 0;    
+}
+.diamond li:before{
+    content: counter(list-counter);
+    counter-increment: list-counter;
+    transform: rotate(45deg);
+    text-transform: rotate(90deg);
+    width: 1em;
+    height: 1em;
+    padding: .5em;
+    margin-right: 1em;
+    border: .25em solid #ccc;
+    background: #000;
+    color: #fff;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    
+}
+.occ
+{
+    padding: 50px 0;
+    background-color: #fff!important;
+}
+.occ_head h3
+{
+    text-transform: uppercase;
+    color: #000!important;
+    font-weight: bold;
+    font-family: tahoma;
+    padding: 10px 0 25px 10px;
+    font-size: 30px;
+    
+}
+.occ_paragraph p
+{
+    font-size: 20px;
+    font-family: tahoma;
+    line-height: 30px;
+    text-align: justify;
+}
+.occ_pa
+{
+    padding: 10px 0 25px 0;
+}
+.occ_pa p{
+    font-size: 20px;
+    font-family: tahoma;
+    line-height: 30px;
+    text-align: justify;
+}
+.plts_paragraph p
+{
+    padding: 25px 0;
+    font-size: 20px;
+    font-family: tahoma;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+/* Logo */
+
+.logo
+{
+    text-align:left;
+}
+.logo a img
+{
+/*
+    display: block;
+        display: inline;
+*/
+/*
+    margin-left: auto;
+    margin-right: auto;
+*/
+    width: 200px;
+    height: 60px;
+    margin-left: 0px;
+}
+.logoTitle
+{
+    margin-top: 23px;
+}
+.logoTitle span
+{
+    font-family: 'Tahoma';
+    font-size: 58px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+    text-shadow: none;
+    color: #666666;
+}
+ /* Icon Bar */  
+.iconbar
+{
+    margin: 50px 0;
+    background-color: #fff!important;
+}
+.icon
+{
+    text-align: center;
+}
+.icon a i
+{
+    font-size: 80px;
+    text-decoration: none;
+    color: #000!important;
+}
+.icon h4
+{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: tahoma;
+}
+.icon p
+{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+    
+/* FOOTER */
+.footericon
+{
+    text-align: center;
+}
+.footericon a i
+{
+    text-decoration: none;
+    font-size: 40px;
+    border: 1px solid grey;
+    padding: 15px;
+    border-radius: 50%;
+    color: #C4C4C4!important;
+}
+.footericon h3
+{
+    font-size: 11px;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: #fff!important;
+    font-family: tahoma;
+    letter-spacing: 1px;
+}
+.about_head
+    {
+        text-align: center;
+    }
+.about_head h3
+{
+    padding: 25px 0 25px 10px;;
+    color: #000!important;
+    font-size: 30px;
+    font-family: tahoma;
+    font-weight: bold;
+}
+}
+
+
+
+
+
+
